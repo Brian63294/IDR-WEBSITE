@@ -13,7 +13,7 @@ export default function Home() {
         </p>
         <div className="mt-8 flex items-center justify-center gap-4">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto: bmccance2345@gmail.com"
             className="rounded-full bg-white px-6 py-3 text-black font-medium"
           >
             Book a Demo
