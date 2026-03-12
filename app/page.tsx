@@ -67,6 +67,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* White bar */}
+      <section className="bg-white px-4 py-4 md:px-8 md:py-5">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-6 text-base font-medium text-black md:gap-12 md:text-2xl">
+          <span>Our Platform</span>
+          <span>Results</span>
+          <span>Research</span>
+        </div>
+      </section>
+
       {/* Black section */}
       <section className="bg-black px-4 py-12 md:px-8 md:py-20">
         <div className="mx-auto max-w-5xl">

@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
-export default function WhatSetsUsApartPage() {
+export default function WhoWeAre() {
     return (
         <main className="min-h-screen bg-black text-white">
             {/* Mobile */}
-            <section className="border-b border-black bg-red-900 md:hidden">
+            <section className="border-b border-zinc-800 bg-black md:hidden">
                 <div className="px-4 py-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-3xl font-light tracking-tight">
@@ -27,7 +28,7 @@ export default function WhatSetsUsApartPage() {
                         </Link>
                         <Link
                             href="#"
-                            className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
+                            className="rounded-none border border-white bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
                         >
                             Log In
                         </Link>
@@ -36,7 +37,7 @@ export default function WhatSetsUsApartPage() {
             </section>
 
             {/* Desktop */}
-            <section className="hidden h-[13.333vh] border-b-2 border-none bg-red-900 md:block">
+            <section className="hidden h-[13.333vh] border-b border-zinc-800 bg-black md:block">
                 <div className="flex items-start justify-between px-4 pt-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-5xl font-light tracking-tight">
@@ -59,7 +60,7 @@ export default function WhatSetsUsApartPage() {
                         </Link>
                         <Link
                             href="#"
-                            className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
+                            className="rounded-none border border-white bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
                         >
                             Log In
                         </Link>
@@ -67,33 +68,54 @@ export default function WhatSetsUsApartPage() {
                 </div>
             </section>
 
-            {/* Black section */}
+            {/* Main black section */}
             <section className="bg-black px-4 py-12 md:px-8 md:py-20">
-                <div className="mx-auto max-w-5xl">
+                <div className="mx-auto max-w-6xl">
                     <h2 className="mb-8 text-center text-3xl font-light tracking-tight md:text-5xl">
-                        What Sets Us Apart
+                        Who We Are
                     </h2>
 
-                    <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
-                        IDR Resolutions is an AI-first company. We build our core models,
-                        automation systems, and decision logic in house rather than
-                        outsourcing them. Our platform is designed around private
-                        claim-level data and a quantitatively driven approach to execution,
-                        which allows us to operate with greater precision, adaptability, and
-                        consistency throughout the IDR process.
+                    <p className="mx-auto max-w-4xl text-center text-lg leading-relaxed text-white md:text-2xl">
+                        IDR Resolutions is a company created by mathematicians, machine
+                        learning specialists, computer scientists, and highly technical
+                        people. We are an AI-first company that uses this technology to
+                        return independence back to surgeons.
                     </p>
 
-                    <p className="mt-8 text-center text-lg leading-relaxed text-white md:text-2xl">
-                        We are building full end-to-end automation for IDR execution, from
-                        insurance verifications to final offer.
-                        By combining Artificial Intelligence,software, automation, statistics, and machine learning
-                        in one system, we aim to give surgeons full controll over there cases again.
-                    </p>
+                    {/* Photos */}
+                    <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+                        <div className="overflow-hidden border border-zinc-800 bg-zinc-950">
+                            <Image
+                                src="/who-we-are-1.jpg"
+                                alt="IDR Resolutions team"
+                                width={1200}
+                                height={900}
+                                className="h-[320px] w-full object-cover"
+                            />
+                        </div>
+
+                        <div className="overflow-hidden border border-zinc-800 bg-zinc-950">
+                            <Image
+                                src="/who-we-are-2.jpg"
+                                alt="Technology and analytics"
+                                width={1200}
+                                height={900}
+                                className="h-[320px] w-full object-cover"
+                            />
+                        </div>
+
+                        <div className="overflow-hidden border border-zinc-800 bg-zinc-950">
+                            <Image
+                                src="/who-we-are-3.jpg"
+                                alt="Surgeon-focused workflow"
+                                width={1200}
+                                height={900}
+                                className="h-[320px] w-full object-cover"
+                            />
+                        </div>
+                    </div>
                 </div>
             </section>
-
-            {/* Red section under black */}
-            <section className="min-h-[35vh] bg-red-900"></section>
         </main>
     );
 }
