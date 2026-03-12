@@ -1,0 +1,87 @@
+import Link from "next/link";
+
+export default function WhoWeAre() {
+return (
+<main className="min-h-screen bg-black text-white">
+    {/* Mobile */}
+    <section className="border-b border-black bg-red-900 md:hidden">
+        <div className="px-4 py-4">
+            <Link href="/" className="inline-block hover:opacity-80">
+            <h1 className="text-3xl font-light tracking-tight">
+                IDR Resolutions
+            </h1>
+            </Link>
+
+            <nav className="mt-3 flex flex-wrap items-center gap-3 text-sm">
+                <Link href="/who-we-are" className="hover:opacity-80">
+                Who We Are
+                </Link>
+                <Link href="/what-sets-us-apart" className="hover:opacity-80">
+                What Sets Us Apart
+                </Link>
+                <Link href="#" className="hover:opacity-80">
+                Careers
+                </Link>
+                <Link href="#" className="hover:opacity-80">
+                Contact
+                </Link>
+                <Link href="#"
+                    className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800">
+                Log In
+                </Link>
+            </nav>
+        </div>
+    </section>
+
+    {/* Desktop */}
+    <section className="hidden h-[13.333vh] border-b-2 border-none bg-red-900 md:block">
+        <div className="flex items-start justify-between px-4 pt-4">
+            <Link href="/" className="inline-block hover:opacity-80">
+            <h1 className="text-5xl font-light tracking-tight">
+                IDR Resolutions
+            </h1>
+            </Link>
+
+            <nav className="flex items-center gap-8 text-2xl">
+                <Link href="/who-we-are" className="hover:opacity-80">
+                Who We Are
+                </Link>
+                <Link href="/what-sets-us-apart" className="hover:opacity-80">
+                What Sets Us Apart
+                </Link>
+                <Link href="#" className="hover:opacity-80">
+                Careers
+                </Link>
+                <Link href="#" className="hover:opacity-80">
+                Contact
+                </Link>
+                <Link href="#"
+                    className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800">
+                Log In
+                </Link>
+            </nav>
+        </div>
+    </section>
+
+    {/* Black section */}
+    <section className="bg-black px-4 py-12 md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl">
+            <h2 className="mb-8 text-center text-3xl font-light tracking-tight md:text-5xl">
+                Who We Are
+            </h2>
+
+            <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
+                IDR Resolutions is a company built around high-level automation,
+                quantitative reasoning, and real reimbursement optimization for
+                out-of-network surgeons. We are building systems that reduce
+                administrative burden, improve decision quality, and bring more
+                precision to the IDR process.
+            </p>
+        </div>
+    </section>
+
+    {/* Red section under black */}
+    <section className="min-h-[35vh] bg-red-900"></section>
+</main>
+);
+}

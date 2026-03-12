@@ -4,15 +4,17 @@ export default function WhatSetsUsApartPage() {
     return (
         <main className="min-h-screen bg-black text-white">
             {/* Mobile */}
-            <section className="bg-red-900 border-b border-black md:hidden">
+            <section className="border-b border-black bg-red-900 md:hidden">
                 <div className="px-4 py-4">
-                    <h1 className="text-3xl font-light tracking-tight">
-                        IDR Resolutions
-                    </h1>
+                    <Link href="/" className="inline-block hover:opacity-80">
+                        <h1 className="text-3xl font-light tracking-tight">
+                            IDR Resolutions
+                        </h1>
+                    </Link>
 
                     <nav className="mt-3 flex flex-wrap items-center gap-3 text-sm">
-                        <Link href="#" className="hover:opacity-80">
-                            About
+                        <Link href="/who-we-are" className="hover:opacity-80">
+                            Who We Are
                         </Link>
                         <Link href="/what-sets-us-apart" className="hover:opacity-80">
                             What Sets Us Apart
@@ -34,15 +36,17 @@ export default function WhatSetsUsApartPage() {
             </section>
 
             {/* Desktop */}
-            <section className="hidden h-[13.333vh] bg-red-900 border-b-2 border-none md:block">
+            <section className="hidden h-[13.333vh] border-b-2 border-none bg-red-900 md:block">
                 <div className="flex items-start justify-between px-4 pt-4">
-                    <h1 className="text-5xl font-light tracking-tight">
-                        IDR Resolutions
-                    </h1>
+                    <Link href="/" className="inline-block hover:opacity-80">
+                        <h1 className="text-5xl font-light tracking-tight">
+                            IDR Resolutions
+                        </h1>
+                    </Link>
 
                     <nav className="flex items-center gap-8 text-2xl">
-                        <Link href="#" className="hover:opacity-80">
-                            About
+                        <Link href="/who-we-are" className="hover:opacity-80">
+                            Who We Are
                         </Link>
                         <Link href="/what-sets-us-apart" className="hover:opacity-80">
                             What Sets Us Apart
