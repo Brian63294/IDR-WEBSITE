@@ -6,7 +6,7 @@ export default function Home() {
           Coming Soon
         </p>
         <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">
-          IDR Solutions
+          IDR Resolutions
         </h1>
         <p className="mt-6 text-lg text-zinc-300 sm:text-xl">
           AI-powered reimbursement optimization for private surgical practices.
