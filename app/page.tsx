@@ -54,6 +54,22 @@ export default function Home() {
           </nav>
         </div>
       </section>
+
+      {/* Black section */}
+      <section className="bg-black px-4 py-12 md:px-8 md:py-20">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
+            IDR Resolutions is an IDR automation and reimbursement optimization
+            company for surgeons. We build software systems that use
+            mathematical, statistical, and machine learning methods to improve
+            execution, pricing strategy, and outcomes in the Independent Dispute
+            Resolution process.
+          </p>
+        </div>
+      </section>
+
+      {/* Red section under black */}
+      <section className="min-h-[35vh] bg-red-900"></section>
     </main>
   );
 }
