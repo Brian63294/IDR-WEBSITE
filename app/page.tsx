@@ -12,9 +12,12 @@ export default function Home() {
           AI-powered reimbursement optimization for private surgical practices.
         </p>
         <div className="mt-8 flex items-center justify-center gap-4">
-          <button className="rounded-full bg-white px-6 py-3 text-black font-medium">
-            Get Early Access
-          </button>
+          <a
+            href="mailto:youremail@example.com"
+            className="rounded-full bg-white px-6 py-3 text-black font-medium"
+          >
+            Book a Demo
+          </a>
           <button className="rounded-full border border-white/20 px-6 py-3 font-medium text-white">
             Learn More
           </button>
