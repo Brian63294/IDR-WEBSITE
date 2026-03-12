@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
@@ -9,21 +11,24 @@ export default function Home() {
           </h1>
 
           <nav className="mt-3 flex flex-wrap items-center gap-3 text-sm">
-            <a href="#" className="hover:opacity-80">
+            <Link href="#" className="hover:opacity-80">
               About
-            </a>
-            <a href="#" className="hover:opacity-80">
+            </Link>
+            <Link href="/what-sets-us-apart" className="hover:opacity-80">
+              What Sets Us Apart
+            </Link>
+            <Link href="#" className="hover:opacity-80">
               Careers
-            </a>
-            <a href="#" className="hover:opacity-80">
+            </Link>
+            <Link href="#" className="hover:opacity-80">
               Contact
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
             >
               Log In
-            </a>
+            </Link>
           </nav>
         </div>
       </section>
@@ -36,21 +41,24 @@ export default function Home() {
           </h1>
 
           <nav className="flex items-center gap-8 text-2xl">
-            <a href="#" className="hover:opacity-80">
+            <Link href="#" className="hover:opacity-80">
               About
-            </a>
-            <a href="#" className="hover:opacity-80">
+            </Link>
+            <Link href="/what-sets-us-apart" className="hover:opacity-80">
+              What Sets Us Apart
+            </Link>
+            <Link href="#" className="hover:opacity-80">
               Careers
-            </a>
-            <a href="#" className="hover:opacity-80">
+            </Link>
+            <Link href="#" className="hover:opacity-80">
               Contact
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="rounded-none bg-zinc-900 px-3 py-2 font-semibold text-white hover:bg-zinc-800"
             >
               Log In
-            </a>
+            </Link>
           </nav>
         </div>
       </section>
@@ -59,12 +67,10 @@ export default function Home() {
       <section className="bg-black px-4 py-12 md:px-8 md:py-20">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
-
             IDR Resolutions is an IDR automation and reimbursement optimization
-            company for surgeons. We built a platform that uses
-            mathematical, statistical, and machine learning methods to automate
-            the entire IDR Process from end to end.
-
+            company for surgeons. We built a platform that uses mathematical,
+            statistical, and machine learning methods to automate the entire IDR
+            process from end to end.
           </p>
         </div>
       </section>
