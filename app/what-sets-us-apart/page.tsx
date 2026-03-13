@@ -8,7 +8,7 @@ export default function WhatSetsUsApartPage() {
                 <div className="px-4 py-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-3xl font-light tracking-tight">
-                            IDR Resolutions
+                            OON Systems
                         </h1>
                     </Link>
 

@@ -7,7 +7,7 @@ export default function Home() {
       <section className="border-b border-black bg-red-900 md:hidden">
         <div className="px-4 py-4">
           <Link href="/" className="inline-block hover:opacity-80">
-            <h1 className="text-3xl font-light tracking-tight">
+            <h1 className="text-5xl font-light tracking-tight">
               OON Systems
             </h1>
           </Link>
