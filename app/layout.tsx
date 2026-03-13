@@ -7,8 +7,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "IDR Resolutions",
-  description: "IDR Resolutions",
+  title: "OON Systems",
+  description: "OON Systems",
 };
 
 export default function RootLayout({

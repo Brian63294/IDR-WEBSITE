@@ -8,7 +8,7 @@ export default function Home() {
         <div className="px-4 py-4">
           <Link href="/" className="inline-block hover:opacity-80">
             <h1 className="text-3xl font-light tracking-tight">
-              IDR Resolutions
+              OON Systems
             </h1>
           </Link>
 
@@ -80,7 +80,7 @@ export default function Home() {
       <section className="bg-black px-4 py-12 md:px-8 md:py-20">
         <div className="mx-auto max-w-5xl">
           <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
-            IDR Resolutions is an AI optimization company built for our
+            OON Systems is an AI optimization company built for our
             out-of-network surgeons. We built a platform that uses
             mathematical, statistical, and machine learning methods to
             automate the entire IDR process from end to end.

@@ -40,7 +40,7 @@ export default function WhatSetsUsApartPage() {
                 <div className="flex items-start justify-between px-4 pt-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-5xl font-light tracking-tight">
-                            IDR Resolutions
+                            OON Systems
                         </h1>
                     </Link>
 
@@ -75,7 +75,7 @@ export default function WhatSetsUsApartPage() {
                     </h2>
 
                     <p className="text-center text-lg leading-relaxed text-white md:text-2xl">
-                        IDR Resolutions is an AI-first company. We build our core models,
+                        OON Systems is an AI-first company. We build our core models,
                         automation systems, and decision logic in house rather than
                         outsourcing them. Our platform is designed around private
                         claim-level data and a quantitatively driven approach to execution,

@@ -9,7 +9,7 @@ export default function WhoWeAre() {
                 <div className="px-4 py-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-3xl font-light tracking-tight">
-                            IDR Resolutions
+                            OON Systems
                         </h1>
                     </Link>
 
@@ -41,7 +41,7 @@ export default function WhoWeAre() {
                 <div className="flex items-start justify-between px-4 pt-4">
                     <Link href="/" className="inline-block hover:opacity-80">
                         <h1 className="text-5xl font-light tracking-tight">
-                            IDR Resolutions
+                            OON Systems
                         </h1>
                     </Link>
 
@@ -76,7 +76,7 @@ export default function WhoWeAre() {
                     </h2>
 
                     <p className="mx-auto max-w-4xl text-center text-lg leading-relaxed text-white md:text-2xl">
-                        IDR Resolutions is a company created by mathematicians, machine
+                        OON Systems is a company created by mathematicians, machine
                         learning specialists, computer scientists, and highly technical
                         people. We are an AI-first company that uses this technology to
                         return independence back to surgeons.
@@ -87,7 +87,7 @@ export default function WhoWeAre() {
                         <div className="overflow-hidden border border-zinc-800 bg-zinc-950">
                             <Image
                                 src="/who-we-are-1.jpg"
-                                alt="IDR Resolutions team"
+                                alt="OON Systems team"
                                 width={1200}
                                 height={900}
                                 className="h-[320px] w-full object-cover"
