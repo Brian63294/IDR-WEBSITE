@@ -148,7 +148,7 @@ export default function Home() {
             OON Systems is an AI optimization company built for our
             out-of-network surgeons. We built a platform that uses
             mathematical, statistical, and machine learning methods to
-            automate the entire IDR process from end to end.
+            automate the entire IDR process from start to finish.
           </p>
         </div>
       </section>
@@ -218,7 +218,7 @@ export default function Home() {
             href="/hipaa-compliance"
             className="text-center text-3xl font-semibold tracking-wide text-white hover:opacity-80 md:text-5xl"
           >
-            HIPAA COMPLIENT
+            HIPAA COMPLIANT
           </Link>
         </div>
       </section>
