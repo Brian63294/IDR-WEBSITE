@@ -40,7 +40,7 @@ export default function Home() {
         <div className="flex items-start justify-between px-4 pt-4">
           <Link href="/" className="inline-block hover:opacity-80">
             <h1 className="text-5xl font-light tracking-tight">
-              IDR Resolutions
+              OON Systems
             </h1>
           </Link>
 
