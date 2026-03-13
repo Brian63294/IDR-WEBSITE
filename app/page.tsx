@@ -211,15 +211,24 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Red company info section */}
+      {/* Red HIPAA section */}
       <section className="bg-red-900 px-6 py-10 md:px-12 md:py-14">
+        <div className="mx-auto flex max-w-6xl items-center justify-center">
+          <h2 className="text-center text-3xl font-semibold tracking-wide text-white md:text-5xl">
+            HIPAA COMPLIANT
+          </h2>
+        </div>
+      </section>
+
+      {/* White company info section */}
+      <section className="bg-white px-6 py-10 md:px-12 md:py-14">
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-8 md:grid-cols-2 md:gap-16">
             <div>
-              <h2 className="text-2xl font-semibold text-white md:text-3xl">
+              <h2 className="text-2xl font-semibold text-black md:text-3xl">
                 New York
               </h2>
-              <div className="mt-3 space-y-1 text-lg leading-snug text-white md:text-xl">
+              <div className="mt-3 space-y-1 text-lg leading-snug text-black md:text-xl">
                 <p>OON Systems LLC</p>
                 <p>Replace with street address</p>
                 <p>Replace with city, state ZIP</p>
@@ -228,10 +237,10 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold text-white md:text-3xl">
+              <h2 className="text-2xl font-semibold text-black md:text-3xl">
                 Boston
               </h2>
-              <div className="mt-3 space-y-1 text-lg leading-snug text-white md:text-xl">
+              <div className="mt-3 space-y-1 text-lg leading-snug text-black md:text-xl">
                 <p>OON Systems LLC</p>
                 <p>Replace with street address</p>
                 <p>Replace with city, state ZIP</p>
