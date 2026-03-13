@@ -214,9 +214,12 @@ export default function Home() {
       {/* Red HIPAA section */}
       <section className="bg-red-900 px-6 py-10 md:px-12 md:py-14">
         <div className="mx-auto flex max-w-6xl items-center justify-center">
-          <h2 className="text-center text-3xl font-semibold tracking-wide text-white md:text-5xl">
-            HIPAA COMPLIANT
-          </h2>
+          <Link
+            href="/hipaa-compliance"
+            className="text-center text-3xl font-semibold tracking-wide text-white hover:opacity-80 md:text-5xl"
+          >
+            HIPAA COMPLIENT
+          </Link>
         </div>
       </section>
 
