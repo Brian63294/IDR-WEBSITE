@@ -86,7 +86,7 @@ export default function Home() {
             <Link href="/what-sets-us-apart" className="hover:opacity-80">
               What Sets Us Apart
             </Link>
-            <Link href="#" className="hover:opacity-80">
+            <Link href="/careers" className="hover:opacity-80">
               Careers
             </Link>
             <Link href="#" className="hover:opacity-80">
@@ -116,7 +116,7 @@ export default function Home() {
             <Link href="/what-sets-us-apart" className="hover:opacity-80">
               What Sets Us Apart
             </Link>
-            <Link href="#" className="hover:opacity-80">
+            <Link href="/careers" className="hover:opacity-80">
               Careers
             </Link>
             <Link href="#" className="hover:opacity-80">
